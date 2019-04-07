@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     var Stone_count = 0
     let User_color = -1
     let Cpu_color = 1
-    let urlCpu = URL(string: "http://192.168.1.4:5000/cpu_osero")!
+    let urlCpu = URL(string: "")! // URL
     var buttonArray: [UIButton] = []
     let baseBoard = UIImage(named: "greenBoard")
     let white = UIImage(named: "white")
